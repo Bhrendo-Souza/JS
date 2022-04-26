@@ -5,6 +5,7 @@ function getAdmins (map){
             admins.push(key);
         }
     }
+    return admins;
 }
 
 const usuarios = new Map();
